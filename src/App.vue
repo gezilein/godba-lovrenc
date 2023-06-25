@@ -10,7 +10,7 @@ onMounted(async () => {
 });
 
 useHead({
-  title: "Gasilska godba Lovrenc",
+  title: "Pihalna godba PGD Lovrenc na Pohorju",
   meta: [
     {
       name: "description",

@@ -31,7 +31,7 @@ function redirectToFacebook(event: any) {
   <div class="layout-topbar">
     <router-link to="/" class="layout-topbar-logo">
       <Image src="/assets/logo.png"></Image>
-      <span>Gasilska godba Lovrenc</span>
+      <span>Gasilska godba Lovrenc na Pohorju</span>
     </router-link>
     <!-- <button class="p-link layout-menu-button layout-topbar-button" @click="onMenuToggle">
       <i class="pi pi-bars" />
