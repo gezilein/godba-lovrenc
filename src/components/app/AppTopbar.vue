@@ -30,7 +30,7 @@ function redirectToFacebook(event: any) {
 <template>
   <div class="layout-topbar">
     <router-link to="/" class="layout-topbar-logo">
-      <Image src="/public/assets/logo.png"></Image>
+      <Image src="/assets/logo.png"></Image>
       <span>Gasilska godba Lovrenc</span>
     </router-link>
     <!-- <button class="p-link layout-menu-button layout-topbar-button" @click="onMenuToggle">
