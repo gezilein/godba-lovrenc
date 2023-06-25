@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
 :root {
   --surface-a: #ffffff;
@@ -40,7 +40,7 @@
   --surface-ground: #faf9f8;
   --surface-section: #ffffff;
   --surface-card: #ffffff;
-  --surface-overlay: #ffffff;
+  --surface-overlay: #337974;
   --surface-border: #edebe9;
   --surface-hover: #f3f2f1;
   --focus-ring: inset 0 0 0 1px #605e5c;
