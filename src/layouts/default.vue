@@ -2,9 +2,9 @@
 import { useToast } from "primevue/usetoast";
 import { usePrimeVue } from "primevue/config";
 import AppTopBar from "../components/app/AppTopbar.vue";
-import AppMenu from "../components/app/AppMenu.vue";
+// import AppMenu from "../components/app/AppMenu.vue";
 import AppFooter from "../components/app/AppFooter.vue";
-import { navigationMenu } from "@/logic";
+// import { navigationMenu } from "@/logic";
 
 const layoutMode = ref("static");
 // const layoutColorMode = ref("light");
@@ -55,12 +55,12 @@ function onSidebarClick() {
   menuClick.value = true;
 }
 
-function onmenuItemClick(event: any) {
-  if (event.item && !event.item.items) {
-    overlayMenuActive.value = false;
-    mobileMenuActive.value = false;
-  }
-}
+// function onmenuItemClick(event: any) {
+//   if (event.item && !event.item.items) {
+//     overlayMenuActive.value = false;
+//     mobileMenuActive.value = false;
+//   }
+// }
 
 // function onLayoutChange(mode: string) {
 //   layoutMode.value = mode
@@ -126,8 +126,12 @@ onBeforeUpdate(() => {
 <template>
   <div :class="containerClass" @click="onWrapperClick">
     <AppTopBar @menu-toggle="onMenuToggle" />
-    <div class="layout-sidebar" @click="onSidebarClick">
-      <AppMenu :model="navigationMenu" @menu-item-click="onmenuItemClick" />
+    <div class="layout-sidebar text-2xl" @click="onSidebarClick">
+      <!-- <AppMenu :model="navigationMenu" @menu-item-click="onmenuItemClick" /> -->
+      <div class="mt-3"><i class="fa-solid fa-phone-volume"></i> +386 (0)31 616 529</div>
+      <div class="mt-3"><i class="fa-solid fa-envelope"></i> info@godba-lovrenc.si</div>
+      <div class="mt-3"><i class="fa-solid fa-globe"></i> www.godba-lovrenc.si</div>
+      <div class="mt-3"><i class="fa-solid fa-location-dot"></i> Spodnji trg 4, 2344 Lovrenc</div>
     </div>
 
     <div class="layout-main-container">
